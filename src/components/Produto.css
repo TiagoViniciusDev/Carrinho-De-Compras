@@ -1,0 +1,111 @@
+.Produto .produtosNoCarrinho{
+    height: calc(100vh - 350px);
+    overflow-y: auto;
+}
+
+.carrinhoVazio{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.carrinhoVazio h3{
+    margin-bottom: 5px;
+}
+
+.preçoTotal{
+    padding: 20px 5px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.preçoTotal > header{
+    padding: 5px 10px;
+    border-right: 1px solid black;
+}
+
+.preçoTotal h3{
+    margin-right: 5px;
+}
+
+.preço{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.preço > p{
+    text-decoration: line-through;
+    color: rgb(180,180,180);
+}
+
+.preçoFinal p{
+    font-size: 30px;
+    color: #00d864;
+}
+
+.preçoFinal{
+    display: flex;
+    align-items: center;
+}
+
+.desconto{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px 2px;
+    margin-left: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.valorDesconto{
+    margin-top: 5px;
+    background-color: #00d864;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.cuponsDeDesconto{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cuponsDeDesconto > svg{
+    z-index: 99;
+    color: rgb(245, 24, 24);
+    font-size: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.cuponsDeDesconto > svg:hover{
+    rotate: 360deg;
+    color: black;
+    background-color: red;
+}
+
+.cuponsContainer{
+    max-width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+

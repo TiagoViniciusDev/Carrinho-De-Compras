@@ -1,0 +1,44 @@
+.produtoCarrinho{
+    display: flex;
+    align-items: center;
+}
+
+.coluna1, .coluna2, .coluna3, .coluna4{
+    display: flex;
+    padding: 10px 5px;
+    align-items: center;
+}
+
+.removerProduto{
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 40px;
+    transition: 1s;
+}
+
+.removerProduto:hover{
+    rotate: 360deg;
+    color: red;
+}
+
+.imgProduto{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+    background-image: url(../imagens/produto.png);
+    background-size: cover;
+}
+
+.coluna3 p{
+    margin: 0 5px;
+}
+
+.coluna3{
+    font-size: 20px;
+}
+
+.coluna3 svg{
+    cursor: pointer;
+}
+
+

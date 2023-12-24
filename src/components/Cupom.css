@@ -1,0 +1,23 @@
+.Cupom{
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.Cupom h3{
+    margin-bottom: 5px;
+}
+
+.Cupom:hover{
+    outline: 1px solid black;
+}
+
+.cupomDisponivel{
+    background-color: white;
+}
+
+.cupomIndisponivel{
+    background-color: gray;
+    cursor: not-allowed;
+}

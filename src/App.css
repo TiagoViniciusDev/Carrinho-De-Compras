@@ -1,0 +1,85 @@
+.carrinhoDeCompras{
+    width: 98%;
+    max-width: 900px;
+    background-color: #F7F7F7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+
+    overflow-y: auto;
+  }
+  
+  .carrinhoDeCompras > header{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .carrinhoTopo{
+    display: flex;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    justify-content: space-between;
+  }
+
+  
+  .carrinhoTopo p:nth-child(1), .coluna1{
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .carrinhoTopo p:nth-child(2), .coluna2{
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .carrinhoTopo p:nth-child(3), .coluna3{
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .carrinhoTopo p:nth-child(4), .coluna4{
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .botões{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+  }
+
+  .botões button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .botões button svg{
+    margin-left: 5px;
+  }
+
+  .botões button:hover{
+    background-color: #00d864;
+    color: white;
+  }
+
+  @media screen and (max-width: 870px){
+    .botões{
+      justify-content: center;
+    }
+
+    .botões button:nth-of-type(2){
+      margin: 10px;
+    }
+  }
