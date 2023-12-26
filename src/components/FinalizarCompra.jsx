@@ -11,7 +11,7 @@ function FinalizarCompra(){
     const navigate = useNavigate()
 
     function IrParaCarrinho(){
-        navigate("/")
+        navigate("/Carrinho-De-Compras")
     }
 
     return(
